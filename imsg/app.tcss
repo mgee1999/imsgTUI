@@ -1,0 +1,88 @@
+Screen {
+    background: #0b0b0d;
+    color: #f2f2f7;
+    layout: vertical;
+}
+#topbar {
+    height: 1;
+    width: 100%;
+    background: #141416;
+    color: #8e8e93;
+    padding: 0 1;
+}
+#tiles { height: 4; width: 100%; background: #0b0b0d; padding: 0 1; }
+#body { height: 1fr; width: 100%; }
+#left {
+    width: 38;
+    min-width: 28;
+    height: 100%;
+    background: #0f0f11;
+    border-right: tall #1c1c20;
+}
+#search {
+    height: 1;
+    border: none;
+    background: #141416;
+    color: #f2f2f7;
+    padding: 0 1;
+    margin: 0 0 0 0;
+}
+#search:focus { background: #1f1f24; }
+#chats > ChatRow.-highlight { background: #26262b; }
+#chats:focus > ChatRow.-highlight { background: #2e2e34; }
+#chats:focus > ChatRow.-highlight.unread { background: #2e2e34; }
+#chats {
+    height: 1fr;
+    background: transparent;
+    scrollbar-size: 1 1;
+    scrollbar-background: #0f0f11;
+    scrollbar-color: #2c2c2e;
+}
+#right { width: 1fr; height: 100%; }
+#convhead {
+    height: 3;
+    width: 100%;
+    padding: 0 1;
+    background: #141416;
+    border-bottom: tall #1c1c20;
+    layout: horizontal;
+}
+#convhead Avatar { margin: 0 1 0 0; }
+#convtitle { width: 1fr; height: 2; }
+#messages {
+    height: 1fr;
+    width: 100%;
+    padding: 1 2 0 2;
+    scrollbar-size: 1 1;
+    scrollbar-background: #0b0b0d;
+    scrollbar-color: #2c2c2e;
+}
+#messages:focus { border-left: tall #2c2c2e; }
+#composer {
+    height: 3;
+    margin: 0 1 0 1;
+    background: #141416;
+    border: round #2c2c2e;
+    color: #f2f2f7;
+}
+#composer.imessage:focus { border: round #0a84ff; }
+#composer.sms:focus { border: round #30d158; }
+#composer:focus { border: round #8e8e93; }
+#empty {
+    height: 1fr;
+    width: 100%;
+    content-align: center middle;
+    color: #636366;
+}
+Footer { background: #141416; }
+Footer > .footer--key { background: #26262b; color: #ffd60a; }
+Footer > .footer--description { color: #8e8e93; }
+
+HelpScreen { align: center middle; }
+HelpScreen > #help {
+    width: 82; height: auto; max-height: 90%;
+    background: #141416; border: round #3a3a3c; padding: 1 2;
+}
+ViewerScreen { align: center middle; background: #000000 90%; }
+ViewerScreen > #viewer { width: 100%; height: 100%; align: center middle; }
+ViewerScreen #viewer_caption { dock: bottom; height: 1; width: 100%; text-align: center; color: #8e8e93; background: #0b0b0d; }

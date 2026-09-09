@@ -1,0 +1,4 @@
+textual>=8.0
+textual-image>=0.13
+pillow>=11
+pillow-heif>=1.0

@@ -1,0 +1,4 @@
+#!/bin/zsh
+# imsg — iMessage TUI launcher. Runs the project venv's Python so no global installs are needed.
+HERE="$(cd "$(dirname "$(readlink -f "$0")")/.." && pwd)"
+exec "$HERE/.venv/bin/python" -m imsg "$@"
