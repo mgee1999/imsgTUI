@@ -1,5 +1,5 @@
 """Send through Messages.app via AppleScript. The chat guid in chat.db
-(`any;-;+1386…` / `any;+;<groupid>`) is exactly the AppleScript `chat id`."""
+(`any;-;+1555…` / `any;+;<groupid>`) is exactly the AppleScript `chat id`."""
 from __future__ import annotations
 
 import subprocess

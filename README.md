@@ -47,7 +47,7 @@ Built for [Ghostty](https://ghostty.org); works in kitty and WezTerm too.
 │ [#]  (555) 010-0199   4:20 PM │                          yes on my way 4:33 PM│
 │      You: I called…           │                                Read 4:34 PM  │
 │ …                             │  [photo thumbnail]                           │
-│                               │  🖼 IMG_5511.heic · 2.8MB · 4:40 PM          │
+│                               │  🖼 IMG_0042.heic · 2.8MB · 4:40 PM          │
 │                               ├──────────────────────────────────────────────┤
 │                               │ iMessage to Alex Rivera…                      │
 └ q Quit  / Search  u Next unread  ? Help ──────────────────────────────────┘
