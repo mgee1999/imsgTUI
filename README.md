@@ -34,6 +34,11 @@ Contacts, renders photos and video thumbnails inline over the Kitty graphics
 protocol, plays video in-terminal with mpv, and sends through Messages.app.
 Built for [Ghostty](https://ghostty.org); works in kitty and WezTerm too.
 
+
+
+
+<img width="1700" height="335" alt="Screenshot 2026-09-10 at 1 43 40 PM" src="https://github.com/user-attachments/assets/29311718-f754-4b4d-8323-395cfb7ff85a" />
+
 ```
 ┌ imsg  3 unread  250 chats ────────────────────────────────────────────────┐
 │ ╭1────────╮ ╭2────────╮ ╭3────────╮ ╭4────────╮ ╭5────────╮ ╭6────────╮  │
